@@ -1,6 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CatapultToc Version="1">
-
-	<TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Topic.htm"/>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="titlePage"
+    conditions="Default.PrintOnly"
+    ReplaceMergeNode="false" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Topic.htm">
+    <TocEntry
+      Title="T2"></TocEntry>
+    <TocEntry
+      Title="T3" />
+  </TocEntry>
+  <TocEntry
+    Title="T1"
+    Link="/Content/NewTopic.htm">
+    <TocEntry
+      Title="ST1" />
+  </TocEntry>
 </CatapultToc>

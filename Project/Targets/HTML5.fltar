@@ -1,13 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-	Comment="MadCap HTML5 Target"
-	Type="WebHelp2"
-	Destinations=""
-  GlossaryTermConversion="marked">
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Master.fltoc"
+  DefaultUrl="/Content/NewTopic.htm"
+  GetLatestBeforeCompile="true"
+  Skin="/Project/Skins/HTML5 - Tripane.flskn"
+  ConditionTagExpression="exclude[Default.PrintOnly] ">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
     GenerateIndexProxy="true"
-    GenerateGlossaryProxy="true"/>
+    GenerateGlossaryProxy="true" />
 </CatapultTarget>
